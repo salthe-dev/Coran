@@ -1,0 +1,21 @@
+name: pediatric_surgery_reader
+description: A reader app for a medical textbook
+version: 1.0.0
+
+environment:
+  sdk: '>=2.17.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.0
+  shared_preferences: ^2.2.0
+  flutter_markdown: ^0.6.14
+  firebase_core: ^2.10.0
+  firebase_auth: ^4.6.0
+  cloud_firestore: ^4.5.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/book.json
